@@ -17,9 +17,9 @@ public class LastName {
 		Matcher lastNameMatcher = regex.matcher(lNameInputStr);
 		scanner.close();
 		if (lastNameMatcher.matches()) {
-			System.out.println(lNameInputStr + " is valid Last Name.");
+			System.out.println(lNameInputStr + "\nis valid Last Name.");
 		} else {
-			System.out.println(lNameInputStr + " is invalid Last Name.Kindly input the right one.");
+			System.out.println(lNameInputStr + "\nis invalid Last Name.Kindly input the right one.");
 		}
 	}
 }
